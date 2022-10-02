@@ -27,9 +27,9 @@
 }
 .clicked{
     border-radius: 50px;
-background: linear-gradient(315deg, white, #f0f0f0);
-box-shadow:  -20px -20px 60px #bebebe,
-             20px 20px 60px #ffffff;
+    background: linear-gradient(315deg, white, #f0f0f0);
+    box-shadow:  -20px -20px 60px #bebebe,
+    20px 20px 60px #ffffff;
 }
 .quiz{
     display: none;
@@ -58,14 +58,15 @@ box-shadow:  -20px -20px 60px #bebebe,
     width: 350px;
     height: 80px;
     border-radius: 50px;
-background: linear-gradient(315deg, #292f31, #31383a);
-box-shadow:  -17px -17px 33px #7e7e7e,
+    background: linear-gradient(315deg, #292f31, #31383a);
+    box-shadow:  -17px -17px 33px #7e7e7e,
              17px 17px 33px #ffffff;
     transition: .4s;
     margin: 10px;
     position: relative;
     cursor: pointer;
     left: 50%;
+    transition: .4s;
     transform: translateX(-50%) ;
     color: white;
 }
@@ -76,8 +77,51 @@ box-shadow:  -17px -17px 33px #7e7e7e,
 }
 .answers:hover{
     border-radius: 50px;
-background: #e0e0e0;
-box-shadow: inset 20px 20px 60px #bebebe,
-            inset -20px -20px 60px #ffffff;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+    inset -20px -20px 60px #ffffff;
     color: #272c2e;
-        }
+}
+.correct{
+    width: 350px;
+    height: 80px;
+    border-radius: 50px;
+    background: linear-gradient(315deg, #0c810c, #05440a);
+    box-shadow:  -17px -17px 33px #7e7e7e,
+             17px 17px 33px #ffffff;
+    transition: .4s;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%) ;
+    transition: .4s;
+    color: white;
+}
+.correct h1{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.incorrect{
+    width: 350px;
+    height: 80px;
+    border-radius: 50px;
+    background: linear-gradient(315deg, #810c0c, #440515);
+    box-shadow:  -17px -17px 33px #7e7e7e,
+             17px 17px 33px #ffffff;
+    transition: .4s;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%) ;
+    transition: .4s;
+    color: white;
+}
+.incorrect h1{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* css je za popraviti */
